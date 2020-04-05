@@ -19,6 +19,7 @@ body {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .clear-fix {
@@ -211,6 +212,14 @@ header {
   margin-top: 20px;
 }
 
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
 .main-nav {
   float: right;
   list-style: none;
@@ -236,6 +245,49 @@ ul.main-nav li a:visited {
 ul.main-nav li a:hover,
 ul.main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* Mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
+/* STICKY NAVI */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky ul.main-nav li a:link,
+.sticky ul.main-nav li a:visited {
+  color: #555;
+  padding: 16px 0;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
 }
 
 /* ------------------------------------------- */
@@ -563,4 +615,25 @@ footer p {
   color: #888;
   text-align: center;
   margin-top: 20px;
+}
+
+/* ------------------------------------------- */
+/* ANIMATE */
+/* ------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--wp-4 {
+  animation-duration: 1s;
+}
+
+.js--wp-1 .animate,
+.js--wp-2 .animate,
+.js--wp-3 .animate {
+  opacity: 1;
 }

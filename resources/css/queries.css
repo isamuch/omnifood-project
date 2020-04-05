@@ -70,6 +70,10 @@
   .contact-form {
     width: 80%;
   }
+
+  .main-nav {
+    display: block;
+  }
 }
 
 /* Small phone to small tablets: from 481px to 767px */
@@ -92,8 +96,47 @@
     margin: 0 0 4% 0;
   }
 
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .sticky .mobile-nav-icon ion-icon {
+    display: inline-block;
+    color: #555;
+  }
+
   .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
     display: none;
+  }
+
+  ul.main-nav li {
+    display: block;
+  }
+
+  ul.main-nav li a:link,
+  ul.main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky ul.main-nav li a:link,
+  .sticky ul.main-nav li a:visited {
+    color: #555;
+    padding: 10px 0;
   }
 
   h1 {
