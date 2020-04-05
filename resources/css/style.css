@@ -190,7 +190,7 @@ input[type='submit']:hover {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('img/hero.webp');
+    url('./img/hero.webp');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -630,10 +630,4 @@ footer p {
 
 .js--wp-4 {
   animation-duration: 1s;
-}
-
-.js--wp-1 .animate,
-.js--wp-2 .animate,
-.js--wp-3 .animate {
-  opacity: 1;
 }
