@@ -115,13 +115,13 @@
     margin-top: 25px;
     margin-left: 25px;
     opacity: 0;
-    height: 0;
+    max-height: 0;
     overflow: hidden;
-    transition: opacity 0.2s;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
+    transition: opacity 0.4s, max-height 0.4s;
+    -webkit-transition: opacity 0.4s, max-height 0.4s;
+    -moz-transition: opacity 0.4s, max-height 0.4s;
+    -ms-transition: opacity 0.4s, max-height 0.4s;
+    -o-transition: opacity 0.4s, max-height 0.4s;
   }
 
   ul.main-nav li {

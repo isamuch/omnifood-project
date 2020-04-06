@@ -132,6 +132,10 @@ a:visited {
   padding-bottom: 1px;
   border-bottom: 1px solid #e67e22;
   transition: color 0.2s, border-bottom 0.2s;
+  -webkit-transition: color 0.2s, border-bottom 0.2s;
+  -moz-transition: color 0.2s, border-bottom 0.2s;
+  -ms-transition: color 0.2s, border-bottom 0.2s;
+  -o-transition: color 0.2s, border-bottom 0.2s;
 }
 
 a:hover,
@@ -150,6 +154,10 @@ input[type='submit'] {
   text-decoration: none;
   border-radius: 200px;
   transition: background-color 0.2s, boder 0.2s, color 0.2s;
+  -webkit-transition: background-color 0.2s, boder 0.2s, color 0.2s;
+  -moz-transition: background-color 0.2s, boder 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, boder 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, boder 0.2s, color 0.2s;
 }
 
 .btn-full:link,
@@ -240,6 +248,10 @@ ul.main-nav li a:visited {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
   padding: 8px 0;
+  -webkit-transition: border-bottom 0.2s;
+  -moz-transition: border-bottom 0.2s;
+  -ms-transition: border-bottom 0.2s;
+  -o-transition: border-bottom 0.2s;
 }
 
 ul.main-nav li a:hover,
@@ -330,6 +342,10 @@ ul.main-nav li a:active {
   height: auto;
   transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s;
+  -webkit-transition: transform 0.5s, opacity 0.5s;
+  -moz-transition: transform 0.5s, opacity 0.5s;
+  -ms-transition: transform 0.5s, opacity 0.5s;
+  -o-transition: transform 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover {
@@ -576,6 +592,10 @@ footer {
   color: #888;
   border: 0;
   transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
@@ -593,6 +613,10 @@ footer {
 .google,
 .instagram {
   transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
 }
 
 .facebook:hover {

@@ -65,15 +65,13 @@ function onClickMobileNav() {
   var element = document.getElementById('js-main-nav');
   if (element.style.opacity == 1) {
     element.style.opacity = 0;
-    element.style.height = 0;
-    // element.style.display = 'none';
+    element.style.maxHeight = '0px';
     document
       .getElementById('js--mobile-nav-icon')
       .setAttribute('name', 'menu-outline');
   } else {
     element.style.opacity = 1;
-    element.style.height = 'auto';
-    // element.style.display = 'block';
+    element.style.maxHeight = '200px';
     document
       .getElementById('js--mobile-nav-icon')
       .setAttribute('name', 'close-outline');
