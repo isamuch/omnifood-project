@@ -1,7 +1,6 @@
 new Waypoint({
   element: document.getElementById('js--section-feature'),
   handler: function (direction) {
-    console.log(direction);
     if (direction == 'down') {
       document.getElementById('js--nav').classList.add('sticky');
     } else {
@@ -14,7 +13,6 @@ new Waypoint({
 new Waypoint({
   element: document.getElementById('js--wp-1'),
   handler: function (direction) {
-    console.log(direction);
     if (direction == 'down') {
       var element = document.getElementById('js--wp-1');
       element.classList.add('animate', 'fadeIn');
@@ -27,7 +25,6 @@ new Waypoint({
 new Waypoint({
   element: document.getElementById('js--wp-2'),
   handler: function (direction) {
-    console.log(direction);
     if (direction == 'down') {
       var element = document.getElementById('js--wp-2');
       element.classList.add('animate', 'fadeInUp');
@@ -40,7 +37,6 @@ new Waypoint({
 new Waypoint({
   element: document.getElementById('js--wp-3'),
   handler: function (direction) {
-    console.log(direction);
     if (direction == 'down') {
       var element = document.getElementById('js--wp-3');
       element.classList.add('animate', 'fadeIn');
@@ -53,7 +49,6 @@ new Waypoint({
 new Waypoint({
   element: document.getElementById('js--wp-4'),
   handler: function (direction) {
-    console.log(direction);
     if (direction == 'down') {
       document.getElementById('js--wp-4').classList.add('animate', 'pulse');
     }
