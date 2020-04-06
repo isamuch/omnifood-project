@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="EN">
   <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/resources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Omnifood is a premeium food delivery service with the mission to bring affordable and healty meal to as many people as possible."
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/resources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/resources/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/resources/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/resources/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/resources/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="./vendors/css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.min.css" />
-    <link rel="stylesheet" type="text/css" href="./resources/css/queries.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./resources/css/style.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./resources/css/queries.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
       rel="stylesheet"
@@ -33,18 +68,22 @@
             class="logo"
           />
           <img
-          src="./resources/css/img/logo.webp"
-          alt="Omnifood logo"
-          class="logo-black"
-        />
+            src="./resources/css/img/logo.webp"
+            alt="Omnifood logo"
+            class="logo-black"
+          />
           <ul class="main-nav" id="js-main-nav">
             <li><a href="#js--section-feature">Food delivery</a></li>
             <li><a href="#js--section-step">How it work</a></li>
             <li><a href="#js--section-cities">Our cities</a></li>
             <li><a href="#js--section-form">Sign up</a></li>
           </ul>
-          <a class="mobile-nav-icon" id="js--nav-icon" onclick="onClickMobileNav()">
-            <ion-icon id='js--mobile-nav-icon' name="menu-outline"></ion-icon>
+          <a
+            class="mobile-nav-icon"
+            id="js--nav-icon"
+            onclick="onClickMobileNav()"
+          >
+            <ion-icon id="js--mobile-nav-icon" name="menu-outline"></ion-icon>
           </a>
         </div>
       </nav>
@@ -113,7 +152,7 @@
               src="./resources/data/1.webp"
               alt="Korean bibimbap with egg and vegetables"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
@@ -121,7 +160,7 @@
               src="./resources/data/2.webp"
               alt="Simple italian pizza with cherry tomatoes"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
@@ -129,12 +168,12 @@
               src="./resources/data/3.webp"
               alt="Chicken breast steak with vegetables"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
             <img src="./resources/data/4.webp" alt="Autumn pumpkin soup" />
-          </figure class="meal-photo">
+          </figure>
         </li>
       </ul>
       <ul class="meal-showcase clear-fix">
@@ -144,7 +183,7 @@
               src="./resources/data/5.webp"
               alt="Paleo beef steak with vegetables"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
@@ -152,7 +191,7 @@
               src="./resources/data/6.webp"
               alt="Healthy baguette with egg and vegetables"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
@@ -160,7 +199,7 @@
               src="./resources/data/7.webp"
               alt="Burger with cheddar and bacon"
             />
-          </figure class="meal-photo">
+          </figure>
         </li>
         <li>
           <figure class="meal-photo">
@@ -172,32 +211,51 @@
         </li>
       </ul>
     </section>
-    
+
     <section class="section-step" id="js--section-step">
       <div class="row">
         <h2>How it works &mdash; Simple as 1, 2, 3</h2>
       </div>
       <div class="row">
         <div class="col span-1-of-2 steps-box js--wp-2" id="js--wp-2">
-          <img src="./resources/data/app-iPhone.webp" alt="Omnifood on iPhone" class="app-screen">
+          <img
+            src="./resources/data/app-iPhone.webp"
+            alt="Omnifood on iPhone"
+            class="app-screen"
+          />
         </div>
         <div class="col span-1-of-2 steps-box">
           <div class="work-step">
             <div>1</div>
-            <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+            <p>
+              Choose the subscription plan that best fits your needs and sign up
+              today.
+            </p>
           </div>
           <div class="work-step">
             <div>2</div>
-            <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+            <p>
+              Order your delicious meal using our mobile app or website. Or you
+              can even call us!
+            </p>
           </div>
           <div class="work-step">
             <div>3</div>
-            <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+            <p>
+              Enjoy your meal after less than 20 minutes. See you the next time!
+            </p>
           </div>
-          <a href="#" class="btn-app"><img src="./resources/data/download-app.svg" alt="App store button"></a>
-          <a href="#" class="btn-app"><img src="./resources/data/download-app-android.webp" alt="Play store button"></a>
+          <a href="#" class="btn-app"
+            ><img
+              src="./resources/data/download-app.svg"
+              alt="App store button"
+          /></a>
+          <a href="#" class="btn-app"
+            ><img
+              src="./resources/data/download-app-android.webp"
+              alt="Play store button"
+          /></a>
         </div>
-
       </div>
     </section>
 
@@ -207,7 +265,7 @@
       </div>
       <div class="row js--wp-3" id="js--wp-3">
         <div class="col span-1-of-4 box">
-          <img src="./resources/data/lisbon-3.webp" alt="Lisbon">
+          <img src="./resources/data/lisbon-3.webp" alt="Lisbon" />
           <h3>Lisbon</h3>
           <div class="city-feature">
             <ion-icon class="icon-small" name="person"></ion-icon>
@@ -223,7 +281,7 @@
           </div>
         </div>
         <div class="col span-1-of-4 box">
-          <img src="./resources/data/san-francisco.webp" alt="San fransisco">
+          <img src="./resources/data/san-francisco.webp" alt="San fransisco" />
           <h3>San Francisco</h3>
           <div class="city-feature">
             <ion-icon class="icon-small" name="person"></ion-icon>
@@ -239,7 +297,7 @@
           </div>
         </div>
         <div class="col span-1-of-4 box">
-          <img src="./resources/data/berlin.webp" alt="Berlin">
+          <img src="./resources/data/berlin.webp" alt="Berlin" />
           <h3>Berlin</h3>
           <div class="city-feature">
             <ion-icon class="icon-small" name="person"></ion-icon>
@@ -255,7 +313,7 @@
           </div>
         </div>
         <div class="col span-1-of-4 box">
-          <img src="./resources/data/london.webp" alt="London">
+          <img src="./resources/data/london.webp" alt="London" />
           <h3>London</h3>
           <div class="city-feature">
             <ion-icon class="icon-small" name="person"></ion-icon>
@@ -280,27 +338,42 @@
       <div class="row">
         <div class="col span-1-of-3">
           <blockquote>
-            Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+            Omnifood is just awesome! I just launched a startup which leaves me
+            with no time for cooking, so Omnifood is a life-saver. Now that I
+            got used to it, I couldn't live without my daily meals!
             <cite>
-              <img src="./resources/data/customer-1.webp">
+              <img
+                src="./resources/data/customer-1.webp"
+                alt="Customer 1 photo"
+              />
               Alberto Duncan
             </cite>
           </blockquote>
         </div>
         <div class="col span-1-of-3">
           <blockquote>
-            Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+            Inexpensive, healthy and great-tasting meals, delivered right to my
+            home. We have lots of food delivery here in Lisbon, but no one comes
+            even close to Omifood. Me and my family are so in love!
             <cite>
-              <img src="./resources/data/customer-2.webp">
+              <img
+                src="./resources/data/customer-2.webp"
+                alt="Customer 2 photo"
+              />
               Joana Silva
             </cite>
           </blockquote>
         </div>
         <div class="col span-1-of-3">
           <blockquote>
-            I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+            I was looking for a quick and easy food delivery service in San
+            Franciso. I tried a lot of them and ended up with Omnifood. Best
+            food delivery service in the Bay Area. Keep up the great work!
             <cite>
-              <img src="./resources/data/customer-3.webp">
+              <img
+                src="./resources/data/customer-3.webp"
+                alt="Customer 3 photo"
+              />
               Milton Chapman
             </cite>
           </blockquote>
@@ -322,10 +395,34 @@
             </div>
             <div>
               <ul>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>1 meal every day</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Order 24/7</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Access to newest creations</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Free delivery</li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >1 meal every day
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Order 24/7
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Access to newest creations
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Free delivery
+                </li>
               </ul>
             </div>
             <div>
@@ -342,10 +439,34 @@
             </div>
             <div>
               <ul>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>1 meal 10 days/month</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Order 24/7</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Access to newest creations</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Free delivery</li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >1 meal 10 days/month
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Order 24/7
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Access to newest creations
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Free delivery
+                </li>
               </ul>
             </div>
             <div>
@@ -357,15 +478,35 @@
           <div class="plan-box">
             <div>
               <h3>Starter</h3>
-              <p  class="plan-price">$19 <span>/ meal</span></p>
-              <p  class="plan-price-meal">&nbsp;</p>
+              <p class="plan-price">$19 <span>/ meal</span></p>
+              <p class="plan-price-meal">&nbsp;</p>
             </div>
             <div>
               <ul>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>1 meal</li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Order from 8 am to 12 pm</li>
-                <li><ion-icon class="icon-small" name="close-outline"></ion-icon></li>
-                <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Free delivery</li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >1 meal
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Order from 8 am to 12 pm
+                </li>
+                <li>
+                  <ion-icon class="icon-small" name="close-outline"></ion-icon>
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-small"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  >Free delivery
+                </li>
               </ul>
             </div>
             <div>
@@ -387,7 +528,13 @@
               <label for="name">Name</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="text" name="name" id="name" placeholder="Your name" required>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                required
+              />
             </div>
           </div>
           <div class="row">
@@ -395,7 +542,13 @@
               <label for="email">Email</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="email" name="email" id="email" placeholder="Your email" required>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                required
+              />
             </div>
           </div>
           <div class="row">
@@ -416,7 +569,8 @@
               <label>Newsletter</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="checkbox" name="news" id="news" checked> Yes, please
+              <input type="checkbox" name="news" id="news" checked /> Yes,
+              please
             </div>
           </div>
           <div class="row">
@@ -432,7 +586,7 @@
               <label>&nbsp;</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="submit" value="Send it!">
+              <input type="submit" value="Send it!" />
             </div>
           </div>
         </form>
@@ -452,10 +606,26 @@
         </div>
         <div class="col span-1-of-2">
           <ul class="social-link">
-            <li><a href="#"><ion-icon class="facebook" name="logo-facebook"></ion-icon></a></li>
-            <li><a href="#"><ion-icon class="twitter" name="logo-twitter"></ion-icon></a></li>
-            <li><a href="#"><ion-icon class="google" name="logo-google"></ion-icon></a></li>
-            <li><a href="#"><ion-icon class="instagram" name="logo-instagram"></ion-icon></a></li>
+            <li>
+              <a href="#"
+                ><ion-icon class="facebook" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="twitter" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="google" name="logo-google"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="instagram" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -465,15 +635,19 @@
     </footer>
 
     <script
-    type="module"
-    src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
     ></script>
     <script
-    nomodule=""
-    src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
     ></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js" integrity="sha256-9uAoNWHdszsUDhSXf/rVcWOqKPfi5/8V5R4UdbZle2A=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"
+      integrity="sha256-9uAoNWHdszsUDhSXf/rVcWOqKPfi5/8V5R4UdbZle2A="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
     <script src="./vendors/js/noframework.waypoints.min.js"></script>
     <script src="./resources/js/script.js"></script>
